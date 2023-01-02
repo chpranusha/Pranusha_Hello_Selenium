@@ -15,4 +15,10 @@ public class Module2 {
 	public void test003() {
 		System.out.println("This is Test 003");
 	}
+	public void test004() {
+		System.out.println("This is Test 003");
+	}
+	public void test005() {
+		System.out.println("This is Test 003");
+	}
 }
