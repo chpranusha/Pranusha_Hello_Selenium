@@ -41,6 +41,18 @@ public class Module1 {
 		
 		Reporter.log("I am Executing test case 004");
 	}
+	public void test005() {
+		System.out.println("This is Test 004");
+		Assert.assertEquals(false, true);
+		
+		Reporter.log("I am Executing test case 005");
+	}
+	public void test006() {
+		System.out.println("This is Test 004");
+		Assert.assertEquals(false, true);
+		
+		Reporter.log("I am Executing test case 006");
+	}
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("I am executing after every method");
